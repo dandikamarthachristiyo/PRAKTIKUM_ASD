@@ -63,5 +63,6 @@ public class array {
         }
         double ip = totalBobot / matakuliah.length;
         System.out.println("\nIP : " + String.format("%.2f", ip));
+        input.close();
     }
 }

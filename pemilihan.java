@@ -46,5 +46,6 @@ public class pemilihan {
         }
         System.out.println("=======================");
         System.out.println("=======================");
+        sc.close();
     }
 }

@@ -40,12 +40,11 @@ public class Tugas1 {
                 ditemukan = true;
                 break;
             }
-        }
-        
+        }        
         if (!ditemukan) {
             System.out.println("Kode plat tidak ditemukan.");
         }
-        
+       
         scanner.close();
     }
 }

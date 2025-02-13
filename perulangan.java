@@ -18,6 +18,6 @@ public class perulangan {
                 System.out.print(i + " ");
             }
         }
+        sc.close();
     }
-
 }
