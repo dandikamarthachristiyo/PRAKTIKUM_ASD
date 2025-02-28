@@ -1,12 +1,12 @@
 package jobsheet_3;
 import java.util.Scanner;
 public class MataKuliah07 {
+    public MataKuliah07 () {
+    }
     public String kode;
     public String nama;
     public int sks;
     public int jumlahJam;
-    public MataKuliah07 () {
-    }
 
     public MataKuliah07(String kode, String nama, int sks, int jumlahJam) {
         this.kode = kode;
