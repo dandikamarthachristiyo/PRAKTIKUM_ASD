@@ -70,4 +70,17 @@ public class StackTugasMahasiswa07 {
             return 0;
         }
     }
+    public String konversiDesimalkeBiner(int nilai) {
+        StackKonversi07 stack = new StackKonversi07();
+        while (nilai > 0) {
+            int sisa = nilai % 2;
+            stack.push(sisa);
+            nilai = nilai / 2;
+        }
+        String biner = new String();
+        while (!stack.isEmpty()) {
+            biner += stack.pop();
+        }
+        return biner;
+    }
 }
